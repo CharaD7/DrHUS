@@ -28,3 +28,13 @@ print(f'Item in the 0th position is => { schools[0] }')
 print(f'Item in the 1st position is => { schools[1] }')
 print(f'Item in the 2nd position is => { schools[2] }')
 print('=' * 70)
+
+print()
+
+print('Using the tuple variable')
+print(f'Item in the 0th position is => { school_population[0] }')
+print(f'Item in the 1st position is => { school_population[1] }')
+print(f'Item in the 2nd position is => { school_population[2] }')
+print('=' * 70)
+
+print()
