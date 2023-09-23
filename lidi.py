@@ -38,3 +38,10 @@ print(f'Item in the 2nd position is => { school_population[2] }')
 print('=' * 70)
 
 print()
+
+print('Using the dictionary variable')
+print(f'Item in the 0th position is => { section_population.get("boys") }')
+print(f'Item in the 1st position is => { section_population.get("girls") }')
+print('=' * 70)
+
+print()
