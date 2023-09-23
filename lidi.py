@@ -1,6 +1,7 @@
 # Working with lists, tuples and dictionaries.
 
 # List
+additional_schools = [ 'Wesley Grammar SHS', 'Welsey Girls SHS' ]
 schools = [ 'Accra Girls SHS', 'St. Augustine SHS', 'Accra Academy SHS' ]
 
 # Tuple
@@ -45,3 +46,15 @@ print(f'Item in the 1st position is => { section_population.get("girls") }')
 print('=' * 70)
 
 print()
+
+print('=' * 70)
+print(f'Extending the schools list variable')
+print('=' * 70)
+print(f'Printing old list content => { schools }')
+schools.extend(additional_schools)
+print(f'Printing new list content => { schools }')
+print('Adding Pope Jones SHS to the 2nd position of the list')
+schools[2] = 'Pope Jones SHS'
+print(f'Item in position 2 is now { schools[2] }')
+print()
+print(f'Printing new list content => { schools }')
