@@ -25,3 +25,4 @@ print() # Display an empty line
 print('Displaying the data types of the variables')
 print(f' { first_number } is of type: { type(first_number) }')
 print(f' { first_name } is of type: { type(first_name) }')
+print() # Display an empty line
